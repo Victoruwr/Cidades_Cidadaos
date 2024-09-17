@@ -1,0 +1,3 @@
+[0:0:0:0:0:0:0:1] [17/setembro/2024 20:19:01.596] [GET] [/Cidades] [HTTP/1.1] [200] [] [${exception}] 
+[0:0:0:0:0:0:0:1] [17/setembro/2024 20:19:17.725] [GET] [/Cidades] [HTTP/1.1] [200] [] [${exception}] 
+[0:0:0:0:0:0:0:1] [17/setembro/2024 20:19:19.091] [GET] [/RelatorioCidadao] [HTTP/1.1] [200] [] [${exception}] 

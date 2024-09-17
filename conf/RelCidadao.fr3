@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<TfrxReport Version="5.1.5" DotMatrixReport="False" IniFile="\Software\Fast Reports" PreviewOptions.Buttons="4095" PreviewOptions.Zoom="1" PrintOptions.Printer="Default" PrintOptions.PrintOnSheet="0" ReportOptions.CreateDate="45493,0222111227" ReportOptions.Description.Text="" ReportOptions.LastChange="45494,9901734838" ScriptLanguage="PascalScript" ScriptText.Text="begin&#13;&#10;&#13;&#10;end.">
+  <Datasets>
+    <item DataSet="Frx" DataSetName="frxRelatorio"/>
+  </Datasets>
+  <TfrxDataPage Name="Data" Height="1000" Left="0" Top="0" Width="1000"/>
+  <TfrxReportPage Name="Page1" PaperWidth="210" PaperHeight="297" PaperSize="9" LeftMargin="10" RightMargin="10" TopMargin="10" BottomMargin="10" ColumnWidth="0" ColumnPositions.Text="" Frame.Typ="15" HGuides.Text="" VGuides.Text="">
+    <TfrxReportTitle Name="ReportTitle1" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Height="52,91342" Left="0" Top="18,89765" Width="718,1107">
+      <TfrxMemoView Name="Memo1" Left="268,34663" Top="15,11812" Width="188,9765" Height="18,89765" Font.Charset="1" Font.Color="0" Font.Height="-16" Font.Name="Arial" Font.Style="1" ParentFont="False" Text="Relatório de Cidadãos"/>
+      <TfrxMemoView Name="Time" Left="587,82715" Top="0" Width="79,37013" Height="18,89765" Font.Charset="1" Font.Color="0" Font.Height="-11" Font.Name="Arial" Font.Style="1" ParentFont="False" Text="[Time]"/>
+      <TfrxMemoView Name="Date" Left="514,01608" Top="0" Width="68,03154" Height="18,89765" Font.Charset="1" Font.Color="0" Font.Height="-11" Font.Name="Arial" Font.Style="1" ParentFont="False" Text="[Date]"/>
+      <TfrxMemoView Name="Page" Left="672,75634" Top="0" Width="79,37013" Height="18,89765" Font.Charset="1" Font.Color="0" Font.Height="-11" Font.Name="Arial" Font.Style="1" ParentFont="False" Text="[Page]"/>
+    </TfrxReportTitle>
+    <TfrxMasterData Name="MasterData1" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Height="26,67718" Left="0" Top="177,63791" Width="718,1107" ColumnWidth="0" ColumnGap="0" DataSet="Frx" DataSetName="frxRelatorio" RowCount="0">
+      <TfrxMemoView Name="frxCidadaoCODIGO" Align="baWidth" Left="0" Top="3" Width="45,35436" Height="15,11811024" DataField="CODIGO" DataSet="Frx" DataSetName="frxRelatorio" Font.Charset="1" Font.Color="0" Font.Height="-11" Font.Name="Arial" Font.Style="0" ParentFont="False" Text="[frxRelatorio.&#34;CODIGO&#34;]"/>
+      <TfrxMemoView Name="frxCidadaoCIDADAO" Align="baWidth" Left="45,35436" Top="3,77953" Width="177,63791" Height="15,11812" DataField="CIDADAONAME" DataSet="Frx" DataSetName="frxRelatorio" Font.Charset="1" Font.Color="0" Font.Height="-11" Font.Name="Arial" Font.Style="0" ParentFont="False" Text="[frxRelatorio.&#34;CIDADAONAME&#34;]"/>
+      <TfrxMemoView Name="Memo2" Align="baWidth" Left="222,99227" Top="3,77953" Width="272,12616" Height="15,11812" DataField="ENDERECOCOMPL" DataSet="Frx" DataSetName="frxRelatorio" Font.Charset="1" Font.Color="0" Font.Height="-11" Font.Name="Arial" Font.Style="0" ParentFont="False" Text="[frxRelatorio.&#34;ENDERECOCOMPL&#34;]"/>
+      <TfrxMemoView Name="Memo3" Left="495,11843" Top="3,77953" Width="109,60637" Height="15,11812" DataField="CIDADENAME" DataSet="Frx" DataSetName="frxRelatorio" Font.Charset="1" Font.Color="0" Font.Height="-11" Font.Name="Arial" Font.Style="0" ParentFont="False" Text="[frxRelatorio.&#34;CIDADENAME&#34;]"/>
+      <TfrxMemoView Name="Memo4" Left="604,7248" Top="3,77953" Width="37,7953" Height="15,11812" DataField="UF" DataSet="Frx" DataSetName="frxRelatorio" Font.Charset="1" Font.Color="0" Font.Height="-11" Font.Name="Arial" Font.Style="0" ParentFont="False" Text="[frxRelatorio.&#34;UF&#34;]"/>
+      <TfrxMemoView Name="Memo5" Left="642,5201" Top="3,77953" Width="75,5906" Height="15,11812" DataField="CEP" DataSet="Frx" DataSetName="frxRelatorio" Font.Charset="1" Font.Color="0" Font.Height="-11" Font.Name="Arial" Font.Style="0" ParentFont="False" Text="[frxRelatorio.&#34;CEP&#34;]"/>
+    </TfrxMasterData>
+    <TfrxPageHeader Name="PageHeader1" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Height="22,67718" Left="0" Top="94,48825" Width="718,1107">
+      <TfrxMemoView Name="Memo6" Left="0" Top="0" Width="45,35436" Height="18,89765" Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Arial" Font.Style="1" Frame.Typ="15" ParentFont="False" Text="Código"/>
+      <TfrxMemoView Name="Memo7" Left="45,35436" Top="0" Width="177,63791" Height="18,89765" Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Arial" Font.Style="1" Frame.Typ="15" ParentFont="False" Text="Cidadão"/>
+      <TfrxMemoView Name="Memo8" Align="baWidth" Left="222,99227" Top="0" Width="272,12616" Height="18,89765" Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Arial" Font.Style="1" Frame.Typ="15" ParentFont="False" Text="Endereço"/>
+      <TfrxMemoView Name="Memo9" Left="495,11843" Top="0" Width="109,60637" Height="18,89765" Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Arial" Font.Style="1" Frame.Typ="15" ParentFont="False" Text="Cidade"/>
+      <TfrxMemoView Name="Memo10" Left="604,7248" Top="0" Width="37,7953" Height="18,89765" Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Arial" Font.Style="1" Frame.Typ="15" ParentFont="False" Text="UF"/>
+      <TfrxMemoView Name="Memo11" Left="642,5201" Top="0" Width="75,5906" Height="18,89765" Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Arial" Font.Style="1" Frame.Typ="15" ParentFont="False" Text="CEP"/>
+    </TfrxPageHeader>
+  </TfrxReportPage>
+</TfrxReport>

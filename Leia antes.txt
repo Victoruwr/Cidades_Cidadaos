@@ -1,0 +1,18 @@
+*utilizado o delphi 10 ou superior
+
+*utilizado o Firebird versão 2.5
+
+*banco .fdb está na pasta conf
+
+*todos os 3 realtorios .fr3 devera esta´no mesmo diretorio do executavel
+
+*o ini do servidor deve estar no mesmo diretorio do servidor
+
+*foi utilizado o dataset serialize para agilizar a conversao dos json
+
+*foi utilzado o horse para fazer uma pequena api de requisicao
+
+*executar o servidor
+
+*executar o cliente
+
